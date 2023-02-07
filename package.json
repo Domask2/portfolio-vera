@@ -1,5 +1,5 @@
 {
-  "name": "nimax",
+  "name": "portfolio-vera",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -53,6 +53,6 @@
     "eslint-plugin-react": "^7.31.11",
     "eslint-plugin-react-hooks": "^4.6.0",
     "prettier": "^2.8.1",
-    "prettier-eslint": "^15.0.1",
+    "prettier-eslint": "^15.0.1"
   }
 }
