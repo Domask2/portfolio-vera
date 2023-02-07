@@ -1,0 +1,17 @@
+@import 'variables';
+@import 'libs/normalize';
+@import 'all';
+
+.app {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container {
+  width: $container-width;
+  height: $container-height;
+  padding: 16px 20px;
+  background: $container-bck;
+  margin: 16px;
+}
