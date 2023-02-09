@@ -1,0 +1,92 @@
+.services {
+  display: flex;
+  justify-content: space-between;
+  height: 15rem;
+  margin-bottom: 6rem;
+  position: relative;
+
+  .awesome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 75%;
+
+    > :nth-child(1) {
+      color: var(--black);
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    > :nth-child(2) {
+      color: var(--orange);
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+
+    > :nth-child(3) {
+      color: var(--gray);
+      padding: 10px;
+      font-size: 17px;
+      margin-top: 1rem;
+    }
+
+    .s-button {
+      width: 8rem;
+      height: 2rem;
+      margin-top: 1rem;
+    }
+  }
+
+  .cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    > * {
+      position: relative;
+    }
+
+    :nth-child(1) {
+      left: 0rem;
+      top: 4rem;
+    }
+
+    > :nth-child(2) {
+      //left: 2rem;
+      //top: -20rem;
+    }
+
+    > :nth-child(3) {
+      left: 0rem;
+      top: -5rem;
+    }
+  }
+
+  .s-blur1 {
+    position: absolute;
+    z-index: -9;
+    width: 200px;
+    height: 200px;
+    background: var(--purple);
+    border-radius: 50%;
+    filter: blur(72px);
+    top: 5rem;
+    left: 39rem;
+  }
+
+  .s-blur2 {
+    position: absolute;
+    z-index: -9;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    filter: blur(72px);
+    background: var(--blueCard);
+    left: -7rem;
+    top: 4rem;
+  }
+
+
+}

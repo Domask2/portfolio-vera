@@ -19,6 +19,8 @@
   padding: 0.5rem 3.5rem;
   overflow: hidden;
   color: var(--black);
+  margin: 0 auto;
+  max-width: 1280px;
 }
 
 .button {
@@ -37,4 +39,5 @@
     color: var(--orange);
   }
 }
+
 

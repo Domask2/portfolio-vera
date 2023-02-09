@@ -15,12 +15,12 @@ const Intro = () => (
         <div className='intro'>
             <div className="i-left">
                 <div className="i-name">
-                    <span>Hy! I Am</span>
-                    <span>Vera Gordeeva</span>
-                    <span>Small Design with great desire, good taste, excellent prospects...</span>
+                    <span>Современный дизайн</span>
+                    <span/>
+                    <p>Раскрутите свой бизнес, создав эффектные видео, анимации, брендинг, мокапы, презентации, графический дизайн и профессиональные сайты...</p>
                 </div>
 
-                <button type='button' className="button i-button">Hire Me</button>
+                {/* <button type='button' className="button i-button">Подробнее</button> */}
 
                 <div className="i-icons">
                     <img src={GitHub} alt="GitHub"/>
@@ -34,10 +34,10 @@ const Intro = () => (
                 <img src={boy} alt="boy"/>
                 <img src={glassesimoji} alt="glassesimoji"/>
                 <div>
-                    <FloatinDiv img={crown} text1="Web" text2="Developer" />
+                    <FloatinDiv img={crown} text1="" text2="" />
                 </div>
                 <div>
-                    <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
+                    <FloatinDiv img={thumbup} text1="" text2="" />
                 </div>
 
                 <div className="blur blur-one" />
