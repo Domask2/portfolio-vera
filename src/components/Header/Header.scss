@@ -1,9 +1,27 @@
 .header {
- &_main {
-   background: #191A1B;
-   min-height: 90px;
-   color: #FBFBFB;
-   font-size: 16px;
-   position: relative;
- }
+  &_main {
+    background: #191A1B;
+    min-height: 90px;
+    color: #FBFBFB;
+    font-size: 16px;
+    position: relative;
+    display: flex;
+
+    .header_wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+
+      .branding {
+        color: #fff;
+      }
+
+      .header_menu {
+        color: #fff;
+      }
+    }
+  }
+
+
 }
