@@ -2,6 +2,7 @@
   position: relative;
   overflow: hidden;
   background: #fff;
+  z-index: 100;
 
   &_wrapper {
     display: flex;
@@ -54,107 +55,7 @@
       .svg2 {
         top: 45px;
       }
-
-      .snow {
-        width: 1000px;
-        height: 1000px;
-        flex: 1;
-        position: absolute;
-        top: 224px;
-
-        &:after {
-          content: ' ';
-          display: block;
-          position: absolute;
-          left: -170px;
-          top: 0px;
-          width: 100%;
-          height: 100%;
-          opacity: 0.2;
-          background-image: url("../../img/urban-line-stars-line.gif");
-          background-repeat: no-repeat;
-          transform: scale(0.8);
-        }
-
-        &:before {
-          content: ' ';
-          display: block;
-          position: absolute;
-          left: 270px;
-          top: -100px;
-          width: 100%;
-          height: 100%;
-          opacity: 0.2;
-          background-image: url("../../img/urban-line-stars-line.gif");
-          background-repeat: no-repeat;
-          transform: scale(0.8);
-        }
-      }
-
-      .snow1 {
-        width: 1000px;
-        height: 1000px;
-        flex: 1;
-        position: absolute;
-        top: 224px;
-
-        &:after {
-          content: ' ';
-          display: block;
-          position: absolute;
-          left: -170px;
-          top: 250px;
-          width: 100%;
-          height: 100%;
-          opacity: 0.2;
-          background-image: url("../../img/urban-line-stars-line.gif");
-          background-repeat: no-repeat;
-          transform: scale(0.8);
-        }
-
-        &:before {
-          content: ' ';
-          display: block;
-          position: absolute;
-          left: 270px;
-          top: 150px;
-          width: 100%;
-          height: 100%;
-          opacity: 0.2;
-          background-image: url("../../img/urban-line-stars-line.gif");
-          background-repeat: no-repeat;
-          transform: scale(0.8);
-        }
-      }
-
-      &:after {
-        content: ' ';
-        display: block;
-        position: absolute;
-        left: -100px;
-        top: -40px;
-        width: 100%;
-        height: 100%;
-        opacity: 0.2;
-        background-image: url("../../img/urban-line-stars-line.gif");
-        background-repeat: no-repeat;
-        transform: scale(0.8);
-      }
-
-      &:before {
-        content: ' ';
-        display: block;
-        position: absolute;
-        left: 250px;
-        top: -120px;
-        width: 100%;
-        height: 100%;
-        opacity: 0.2;
-        background-image: url("../../img/urban-line-stars-line.gif");
-        background-repeat: no-repeat;
-        transform: scale(0.8);
-      }
-
+      
       svg {
         z-index: 1000;
         transform-origin: 50% 50%;

@@ -81,8 +81,6 @@ const Intro = () => (
                         />
                     </g>
                 </svg>
-                <div className="snow"/>
-                <div className="snow1"/>
             </div>
         </div>
     </div>
