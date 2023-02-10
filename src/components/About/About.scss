@@ -21,13 +21,17 @@
         display: inline-block;
 
         &:last-child {
-          width: 33%;
-          float: left;
-          height: 100%;
-          display: inline-block;
-          border-left: 1px solid #F4F4F4;
           border-right: 1px solid #F4F4F4;
+
         }
+      }
+
+      .lb2 {
+        border-left: none;
+      }
+
+      .lb3 {
+        border-left: none;
       }
     }
 
