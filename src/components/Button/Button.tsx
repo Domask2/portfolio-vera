@@ -2,7 +2,7 @@ import React, {FC} from 'react';
 
 interface ButtonProps {
     children: React.ReactNode
-    styleText?: any
+    styleText?: React.CSSProperties
 }
 
 const Button: FC<ButtonProps> = ({children, styleText}) => (

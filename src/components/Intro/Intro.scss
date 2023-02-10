@@ -1,0 +1,194 @@
+.intro {
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+
+  &_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 90px);
+
+    .intro_description {
+      flex: 1;
+
+      &__title {
+        font-size: 50px;
+        padding: 0;
+        margin-bottom: 24px;
+      }
+
+      &__text {
+        text-transform: uppercase;
+        letter-spacing: 0.11em;
+        font-size: 20px;
+        margin-bottom: 33px;
+      }
+
+      &__great {
+        font-size: 18px;
+        line-height: 20px;
+        letter-spacing: 0.11em;
+        padding-top: 0;
+        padding-bottom: 20px;
+        margin-bottom: 25px;
+      }
+    }
+
+    .intro_banner {
+      width: 200px;
+      flex: 1;
+      position: relative;
+
+      .svg {
+        width: 100%;
+        height: 100%;
+        display: block;
+        position: absolute;
+      }
+
+      .svg1 {
+        top: -120px;
+      }
+
+      .svg2 {
+        top: 45px;
+      }
+
+      .snow {
+        width: 1000px;
+        height: 1000px;
+        flex: 1;
+        position: absolute;
+        top: 224px;
+
+        &:after {
+          content: ' ';
+          display: block;
+          position: absolute;
+          left: -170px;
+          top: 0px;
+          width: 100%;
+          height: 100%;
+          opacity: 0.2;
+          background-image: url("../../img/urban-line-stars-line.gif");
+          background-repeat: no-repeat;
+          transform: scale(0.8);
+        }
+
+        &:before {
+          content: ' ';
+          display: block;
+          position: absolute;
+          left: 270px;
+          top: -100px;
+          width: 100%;
+          height: 100%;
+          opacity: 0.2;
+          background-image: url("../../img/urban-line-stars-line.gif");
+          background-repeat: no-repeat;
+          transform: scale(0.8);
+        }
+      }
+
+      .snow1 {
+        width: 1000px;
+        height: 1000px;
+        flex: 1;
+        position: absolute;
+        top: 224px;
+
+        &:after {
+          content: ' ';
+          display: block;
+          position: absolute;
+          left: -170px;
+          top: 250px;
+          width: 100%;
+          height: 100%;
+          opacity: 0.2;
+          background-image: url("../../img/urban-line-stars-line.gif");
+          background-repeat: no-repeat;
+          transform: scale(0.8);
+        }
+
+        &:before {
+          content: ' ';
+          display: block;
+          position: absolute;
+          left: 270px;
+          top: 150px;
+          width: 100%;
+          height: 100%;
+          opacity: 0.2;
+          background-image: url("../../img/urban-line-stars-line.gif");
+          background-repeat: no-repeat;
+          transform: scale(0.8);
+        }
+      }
+
+      &:after {
+        content: ' ';
+        display: block;
+        position: absolute;
+        left: -100px;
+        top: -40px;
+        width: 100%;
+        height: 100%;
+        opacity: 0.2;
+        background-image: url("../../img/urban-line-stars-line.gif");
+        background-repeat: no-repeat;
+        transform: scale(0.8);
+      }
+
+      &:before {
+        content: ' ';
+        display: block;
+        position: absolute;
+        left: 250px;
+        top: -120px;
+        width: 100%;
+        height: 100%;
+        opacity: 0.2;
+        background-image: url("../../img/urban-line-stars-line.gif");
+        background-repeat: no-repeat;
+        transform: scale(0.8);
+      }
+
+      svg {
+        z-index: 1000;
+        transform-origin: 50% 50%;
+        animation: move 24s ease-in-out infinite;
+      }
+
+      @keyframes move {
+        0% {
+          transform: scale(1) translate(0, 0) rotate(0);
+          fill: var(--firstColor);
+          filter: drop-shadow(20px 14px 10px var(--dropShadowColor));
+        }
+        25% {
+          transform: scale(0.8) translate(5vw, 10vh) rotate(55deg);
+          fill: var(--secondColor);
+          filter: drop-shadow(14px 14px 6px var(--dropShadowColor));
+        }
+        50% {
+          transform: scale(0.6) translate(15vw, 5vh) rotate(180deg);
+          fill: var(--thirdColor);
+          filter: drop-shadow(-16px -16px 16px var(--dropShadowColor));
+        }
+        75% {
+          transform: scale(0.8) translate(5vw, 10vh) rotate(55deg);
+          fill: var(--fourthColor);
+          filter: drop-shadow(14px 14px 6px var(--dropShadowColor));
+        }
+        100% {
+          transform: scale(1) translate(0, 0) rotate(0);
+          fill: var(--firstColor);
+          filter: drop-shadow(20px 14px 10px var(--dropShadowColor));
+        }
+      }
+
+    }
+  }
+}

@@ -8,10 +8,10 @@ import boy from "../../img/boy.png";
 import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
-import './intro.scss';
+import './intro1.scss';
 import FloatinDiv from "../floatingDiv/FloatingDiv";
 
-const Intro = () => (
+const Intro1 = () => (
         <div className='intro'>
             <div className="i-left">
                 <div className="i-name">
@@ -46,4 +46,4 @@ const Intro = () => (
         </div>
     )
 
-export default Intro;
+export default Intro1;
