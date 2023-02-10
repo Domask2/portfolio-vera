@@ -5,73 +5,18 @@
     .header_wrapper {
       display: flex;
       align-items: center;
-      max-width: 1170px;
       min-height: 90px;
-      margin: 0 auto;
       padding: 0 30px;
 
-      .logo {
-        margin-right: 40px;
-      }
-
-      .branding {
-        color: #fff;
-      }
-
       .header_menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
         width: 100%;
         color: #fff;
-
-        .main_menu {
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-
-          .primary_menu {
-            display: flex;
-
-            > li {
-              color: #fff;
-              text-decoration: none;
-              font-size: 17px;
-              letter-spacing: 0.2px;
-              margin-top: 2px;
-              margin-right: 40px;
-              transition-property: all;
-              transition-duration: 0.2s;
-              transition-timing-function: ease;
-              cursor: pointer;
-            }
-
-            > li:hover {
-              color: #B5B5B5;
-            }
-          }
-
-          .btn {
-            padding: 10px 33px;
-            color: #FBFBFB;
-            background-color: rgba(28, 28, 28, 0.01);
-            z-index: 0;
-            border: 1px solid #00D7B9;
-            transition: all 0.3s ease;
-            cursor: pointer;
-            background-image: linear-gradient(transparent 50%, #00BDD7 50%);
-            background-size: 200% 200%;
-            background-repeat: no-repeat;
-
-            &:hover {
-              background-position: 0 100%;
-            }
-
-          }
-        }
       }
     }
 
-    .menu_mobile {
-      color: #fff;
-    }
   }
 }
 

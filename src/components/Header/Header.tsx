@@ -1,34 +1,25 @@
 import React from 'react';
+import Navigation from "../Navigation/Navigation";
+import Logo from "./Logo/Logo";
+import Branding from "./Branding/Branding";
+import Button from "../Button/Button";
+import NavMobile from "./Navigation_Mobile/NavMobile";
 
 const Header = () => (
-        <header className='header'>
-            <div className="header_main">
-                <div className="header_wrapper">
-                    <div className="logo">
-                        <img src="https://yanakhodkina.com/wp-content/themes/yanakhodkina_2/images/logo.svg"
-                             alt="Сайт графического-дизайнера Веры Гордеевой"/>
-                    </div>
-                    <div style={{display: 'none'}} className="branding">1</div>
-                    <div className="header_menu">
-                        <nav className="main_menu">
-                            <ul className="primary_menu">
-                                <li>Портфолио</li>
-                                <li>Услуги</li>
-                                <li>Информация</li>
-                                <li>Блог</li>
-                                <li>Лента</li>
-                                <li>Магазин</li>
-                            </ul>
+    <header className='header'>
+        <div className="header_main">
+            <div className="header_wrapper wrapper">
+                <Logo/>
+                <Branding/>
 
-                            <button className='btn' type='button'>
-                                Контакты
-                            </button>
-                        </nav>
-
-                    </div>
-                    <div style={{display: 'none'}} className="menu_mobile">---aaa</div>
+                <div className="header_menu">
+                    <Navigation/>
+                    <Button>Контакты</Button>
+                    <NavMobile/>
                 </div>
+
             </div>
-        </header>
-    )
+        </div>
+    </header>
+)
 export default Header;

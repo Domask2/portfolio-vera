@@ -13,6 +13,14 @@
   --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
   --orangeCard: rgba(252, 166, 31, 0.45);
   --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+
+
+  --backgroundColor: #232323;
+  --firstColor: #00D69C;
+  --secondColor: #C52AFC;
+  --thirdColor: #FF1F00;
+  --fourthColor: #FFD600;
+  --dropShadowColor: rgba(0, 0, 0, .7);
 }
 
 .app{
@@ -20,8 +28,11 @@
   margin: 0;
   color: var(--black);
   min-width: 320px;
-  //margin: 0 auto;
-  //max-width: 1280px;
+
+  .wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
 }
 
 .button {
