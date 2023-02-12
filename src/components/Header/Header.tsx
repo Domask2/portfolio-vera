@@ -4,6 +4,7 @@ import Logo from "./Logo/Logo";
 import Branding from "./Branding/Branding";
 import Button from "../Button/Button";
 import NavMobile from "./Navigation_Mobile/NavMobile";
+import './Header.scss';
 
 const Header = () => (
     <header className='header'>
