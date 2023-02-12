@@ -1,8 +1,9 @@
 import React from 'react';
+import LogoImg from '../../../img/logo.png';
 
 const Logo = () => (
     <div className="logo">
-        <img src="https://yanakhodkina.com/wp-content/themes/yanakhodkina_2/images/logo.svg"
+        <img src={LogoImg}
              alt="Сайт графического-дизайнера Веры Гордеевой"/>
     </div>
 )

@@ -28,7 +28,7 @@ const Intro = () => (
                 <svg className='svg svg1' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 510" version="1.1">
                     <title>Squares</title>
                     <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
-                        <rect id="cyan-box" width="150" height="150" fill="#66EEDD"/>
+                        <rect id="cyan-box" width="150" height="150" fill="#2CBBDF"/>
                         <path id="cyan-path" d="M405,300 L405, -100" fill="none"/>
 
                         <animateMotion
@@ -56,7 +56,7 @@ const Intro = () => (
                 <svg className='svg svg2' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 510" version="1.1">
                     <title>Squares</title>
                     <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
-                        <rect id="blue-box" width="120" height="120" fill="#00BDD7"/>
+                        <rect id="blue-box" width="120" height="120" fill="#A573E0"/>
                         <path id="blue-path" d="M185,100 L285, -100" fill="none"/>
 
                         <animateMotion

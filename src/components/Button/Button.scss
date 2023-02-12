@@ -2,7 +2,7 @@
   position: relative;
   padding: 10px 33px;
   background-color: rgba(28, 28, 28, 0.01);
-  border-image: linear-gradient(to right, #00D7B9 0%, #00BDD7 100%) 1;
+  border-image: linear-gradient(to right, var(--great-color-one) 0%, var(--great-color-two) 100%) 1;
   cursor: pointer;
   outline: none;
   overflow: hidden;
@@ -21,7 +21,7 @@
     top: var(--y);
     width: var(--size);
     height: var(--size);
-    background: linear-gradient(to right, #00D7B9 0%, #00BDD7 100%);
+    background: linear-gradient(to right, var(--great-color-one) 0%, var(--great-color-two) 100%);
     transform: translate(-50%, -50%);
     border-radius: 50%;
     transition: width 0.4s ease-in-out, height 0.4s ease-in-out;

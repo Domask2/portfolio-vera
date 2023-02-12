@@ -36,32 +36,37 @@
     }
 
     &_card {
-      margin: 240px -70px 287px 0;
+      margin: 70px -70px 70px 0;
       position: relative;
       max-width: 1379px;
       display: flex;
-      border: 5px solid #00BDD7;
+      background: #191A1B;
 
       .woman {
-        width: 373px;
-        height: 478px;
-        background-color: #242D49;
+        width: 370px;
+        height: 470px;
         margin: 45px 45px 0 45px;
         position: absolute;
+
+        .img {
+          width: 100%;
+          height: 100%;
+          background: url('../../img/vera.jpg') no-repeat;
+        }
       }
 
       .info {
         display: flex;
         flex-direction: column;
         flex: 1;
-        padding-right: 140px;
+        padding-right: 17%;
         margin-left: 470px;
 
         .title {
           text-transform: uppercase;
           font-size: 26px;
           letter-spacing: 0.07em;
-          color: #000;
+          color: #999999;
           margin-top: 70px;
           margin-bottom: 40px;
           display: inline-block;
@@ -70,15 +75,15 @@
         .subtitle {
           font-size: 20px;
           letter-spacing: 0.3px;
-          color: #000;
-          margin-bottom: 40px;
+          color: #fff;
+          margin-bottom: 16px;
           display: inline-block;
         }
 
         .txt {
           font-size: 18px;
           line-height: 29px;
-          color: #000;
+          color: #fff;
           display: inline-block;
           margin-bottom: 18px;
         }
@@ -88,17 +93,15 @@
           left: 424px;
 
           button {
-            background: #fff;
+            background: #283037;
             text-decoration: none;
             font-size: 14px;
-            color: #000;
+            color: #ddd;
             display: inline-block;
-            padding: 31px 39px 33px 47px;
+            padding: 25px;
             letter-spacing: 0.3px;
-            border-image: linear-gradient(to right, #00D7B9 0%, #00BDD7 100%) 1;
+            border: none;
             cursor: pointer;
-            border-bottom: none;
-
 
             &:after {
               background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='101' height='8' viewBox='0 0 101 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M100.354 4.35356C100.549 4.1583 100.549 3.84172 100.354 3.64646L97.1716 0.464475C96.9763 0.269212 96.6597 0.269212 96.4645 0.464475C96.2692 0.659737 96.2692 0.976319 96.4645 1.17158L99.2929 4.00001L96.4645 6.82844C96.2692 7.0237 96.2692 7.34028 96.4645 7.53554C96.6597 7.7308 96.9763 7.7308 97.1716 7.53554L100.354 4.35356ZM-4.37114e-08 4.5L100 4.50001L100 3.50001L4.37114e-08 3.5L-4.37114e-08 4.5Z' fill='%23ddd'/%3e%3c/svg%3e");
@@ -114,13 +117,11 @@
             }
 
             &:hover {
-              color: #525252;
+              color: #fff;
             }
 
             &:hover::after {
-              background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='101' height='8' viewBox='0 0 101 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M100.354 4.35356C100.549 4.1583 100.549 3.84172 100.354 3.64646L97.1716 0.464475C96.9763 0.269212 96.6597 0.269212 96.4645 0.464475C96.2692 0.659737 96.2692 0.976319 96.4645 1.17158L99.2929 4.00001L96.4645 6.82844C96.2692 7.0237 96.2692 7.34028 96.4645 7.53554C96.6597 7.7308 96.9763 7.7308 97.1716 7.53554L100.354 4.35356ZM-4.37114e-08 4.5L100 4.50001L100 3.50001L4.37114e-08 3.5L-4.37114e-08 4.5Z' fill='%23333'/%3e%3c/svg%3e");
-              transform: scale(0.9);
-              color: #525252;
+              background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='101' height='8' viewBox='0 0 101 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M100.354 4.35356C100.549 4.1583 100.549 3.84172 100.354 3.64646L97.1716 0.464475C96.9763 0.269212 96.6597 0.269212 96.4645 0.464475C96.2692 0.659737 96.2692 0.976319 96.4645 1.17158L99.2929 4.00001L96.4645 6.82844C96.2692 7.0237 96.2692 7.34028 96.4645 7.53554C96.6597 7.7308 96.9763 7.7308 97.1716 7.53554L100.354 4.35356ZM-4.37114e-08 4.5L100 4.50001L100 3.50001L4.37114e-08 3.5L-4.37114e-08 4.5Z' fill='%23fff'/%3e%3c/svg%3e");
             }
           }
         }

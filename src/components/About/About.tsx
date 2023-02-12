@@ -11,7 +11,9 @@ const About = () => (
             </div>
 
             <div className="about_wrapper_card">
-                <div className="woman"/>
+                <div className="woman">
+                    <div className="img" />
+                </div>
 
                 <div className='info'>
                     <div className="title">ДАВАЙТЕ ЗНАКОМИТЬСЯ</div>
