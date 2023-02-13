@@ -13,7 +13,7 @@ const EmploymentCard: FC<EmploymentCardProps> = ({number, title, txt, link}) => 
         <div className="number">{number}</div>
         <div className="title">{title}</div>
         <div className="txt">{txt}</div>
-        <button type='button'>подробнее</button>
+        <a href='/#' className='employment_btn' type='button'>Подробнее</a>
     </div>
 )
 
