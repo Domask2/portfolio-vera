@@ -14,7 +14,6 @@ const Button: FC<ButtonProps> = ({children, styleText}) => (
             const y = e.pageY - e.target.offsetTop
             e.target.style.setProperty('--x', `${x}px`)
             e.target.style.setProperty('--y', `${y}px`)
-
         }}>
         <span style={styleText}>{children}</span>
     </button>
