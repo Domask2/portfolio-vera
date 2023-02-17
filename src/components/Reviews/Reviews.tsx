@@ -12,8 +12,8 @@ const Reviews = () => (
                 <Slider
                     autoPlay={false}
                     autoPlayTime={5000}
-                    width="100%"
-                    height="100%"
+                    width="50%"
+                    height="50%"
                 />
             </div>
         </div>
