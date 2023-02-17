@@ -12,6 +12,7 @@
 
     .intro_description {
       flex: 1;
+      padding-left: 100px;
 
       &__title {
         font-size: 50px;
@@ -37,9 +38,9 @@
     }
 
     .intro_banner {
-      width: 200px;
       flex: 1;
       position: relative;
+      right: 50px;
 
       .svg {
         width: 100%;

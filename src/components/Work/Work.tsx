@@ -1,14 +1,16 @@
 import React from 'react';
 import './Work.scss';
+import flower_one from '../../img/flower_one.png';
 
 const About = () => (
     <div className="work">
         <div className="work_wrapper wrapper">
             <div className="drawing">
+
                 <svg viewBox="0 0 65 62.2">
                     <path fill="#2CBBDF" d="M32.5,8.5c0-22.6,14.2,6.1,6.8,13.8c7.4-7.7,39.1-3.1,15.3,2.2c23.8-5.3,0.9,17-11.1,10.8c11.9,6.3,17.3,37.9,2.6,15.2
-  c14.7,22.6-13.7,7.7-13.7-7.2c0,14.9-28.4,29.8-13.7,7.2c-14.7,22.6-9.3-9,2.6-15.2C9.5,41.6-13.4,19.2,10.4,24.6
-  c-23.8-5.3,7.9-10,15.3-2.2C18.3,14.6,32.5-14.1,32.5,8.5z">
+                        c14.7,22.6-13.7,7.7-13.7-7.2c0,14.9-28.4,29.8-13.7,7.2c-14.7,22.6-9.3-9,2.6-15.2C9.5,41.6-13.4,19.2,10.4,24.6
+                        c-23.8-5.3,7.9-10,15.3-2.2C18.3,14.6,32.5-14.1,32.5,8.5z">
                         <animate attributeName="d"
                                  begin="mouseover"
                                  end="mouseout"
