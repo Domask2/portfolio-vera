@@ -1,0 +1,71 @@
+.carousel {
+  height: 150px;
+  width: 450px;
+  position: relative;
+
+  .arrow {
+    position: absolute;
+    bottom: -20px;
+    left: -40px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    padding: 20px;
+    width: 40%;
+    transform: scale(0.6);
+    z-index: 1;
+
+    button {
+      background: none;
+      outline: none;
+      border: none;
+    }
+
+    img {
+      cursor: pointer;
+    }
+
+    &_left {
+      bottom: 0;
+      img {
+        transform: rotate(200grad);
+      }
+    }
+  }
+
+  .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+  }
+
+  .item-1 {
+    background-color: cornflowerblue;
+  }
+
+  .item-2 {
+    background-color: coral;
+  }
+
+  .item-3 {
+    background-color: greenyellow;
+  }
+
+  &_wrapper {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+    &_items {
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+
+      transition: translate;
+      transition-property: transform;
+      transition-duration: 300ms;
+      transition-timing-function: ease-in-out;
+    }
+  }
+}

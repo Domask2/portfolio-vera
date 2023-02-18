@@ -11,7 +11,7 @@
     height: calc(100vh - 90px);
 
     .intro_description {
-      flex: 1;
+      width: 50%;
       padding-left: 100px;
 
       &__title {
@@ -38,7 +38,7 @@
     }
 
     .intro_banner {
-      flex: 1;
+      width: 50%;
       position: relative;
       right: 50px;
 

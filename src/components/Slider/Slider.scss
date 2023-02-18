@@ -11,8 +11,9 @@
     .slide {
       flex: 1 0 100%;
       position: relative;
+      background: #00BDD7;
 
-      & .slide-image {
+      .slide-image {
         display: flex;
         margin: 0 auto;
         max-height: 400px;
@@ -21,7 +22,7 @@
         object-fit: contain;
       }
 
-      & .slide-title {
+      .slide-title {
         text-align: center;
         margin-top: 10px;
       }
