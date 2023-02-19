@@ -3,7 +3,6 @@ import './Reviews.scss';
 import Slider from "../Slider/Slider";
 import Carousel from "../Carousel/Carousel";
 
-
 const Reviews = () => (
     <div className='reviews'>
         <div className="wrapper">
@@ -16,11 +15,18 @@ const Reviews = () => (
                 {/*    width="50%" */}
                 {/*    height="50%" */}
                 {/* /> */}
-                
+
                 <Carousel>
-                    <div className="item item-1">Item 1</div>
-                    <div className="item item-2">Item 2</div>
-                    <div className="item item-3">Item 3</div>
+                    <Carousel.Page>
+                        <div className="item item-1">Item 1</div>
+                    </Carousel.Page>
+                    <Carousel.Page>
+                        <div className="item item-2">Item 2</div>
+                    </Carousel.Page>
+                    <Carousel.Page>
+                        <div className="item item-3">Item 3</div>
+                    </Carousel.Page>
+
                 </Carousel>
             </div>
         </div>
