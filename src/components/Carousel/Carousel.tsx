@@ -93,11 +93,17 @@ const Carousel = ({children}: { children: ReactNode }) => {
                             const x = e.pageX - car.current.offsetLeft;
                             const walk = (x - startX)*3;
 
+                            console.log(walk)
+
                             if (walk < 0) {
-                                const maxOffset = -(PAGE_WIDTH * (pages.length - 1));
-                                setOffset((currentOffset) => Math.max(currentOffset + walk, maxOffset));
+                                // const maxOffset = -(PAGE_WIDTH * (pages.length - 1));
+                                // setOffset((currentOffset) => Math.max(walk, maxOffset));
+
+                                handleRightArrowClick()
                             } else {
-                                setOffset((currentOffset) => Math.min(currentOffset + walk, 0));
+
+                                handleLeftArrowClick()
+                                // setOffset((currentOffset) => Math.min(currentOffset + walk, 0));
                             }
                         }}
                     >
