@@ -18,7 +18,7 @@ const Reviews = () => (
 
                 <Carousel>
                     <Carousel.Page>
-                        <div className="item item-1">Item 1</div>
+                        <div className="item item-1" >Item 1</div>
                     </Carousel.Page>
                     <Carousel.Page>
                         <div className="item item-2">Item 2</div>
