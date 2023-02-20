@@ -1,5 +1,11 @@
 .reviews {
 
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   &_title {
     font-size: 20px;
     color: #fff;
@@ -8,9 +14,30 @@
   }
 
   &_wrapper {
+    width: 50%;
     height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  height: 300px;
+}
+
+.item-1 {
+  background-color: cornflowerblue;
+}
+
+.item-2 {
+  background-color: coral;
+}
+
+.item-3 {
+  background-color: greenyellow;
 }
