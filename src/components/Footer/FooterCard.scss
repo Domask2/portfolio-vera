@@ -1,0 +1,30 @@
+.footerCard {
+  width: 25%;
+  padding: 0 15px 0 15px;
+  font-size: 16px;
+
+  .widget {
+    &_title {
+      font-size: 20px;
+      color: #444444;
+      margin: 0 0 27px 0;
+      display: inline-block;
+      font-weight: bold;
+    }
+
+    &_container {
+      &__menu {
+        &__item {
+          display: block;
+          margin: 0 0 15px 0;
+          color: #222222;
+          font-size: 17px;
+          cursor: pointer;
+          &:hover {
+            color: #01D3C5;
+          }
+        }
+      }
+    }
+  }
+}
