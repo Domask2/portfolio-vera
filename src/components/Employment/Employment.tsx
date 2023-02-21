@@ -40,8 +40,10 @@ const Employment = () => (
                             link="1234"
                         />
                     </div>
-                    <Button styleText={{color: 'black'}}>Все услуги</Button>
                 </div>
+            </div>
+            <div className="button">
+                <Button styleText={{color: 'black'}}>Все услуги</Button>
             </div>
         </div>
     </div>
