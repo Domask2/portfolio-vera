@@ -6,6 +6,18 @@ import CarouselContext from "./Carousel-Contex";
 
 export const PAGE_WIDTH = 450;
 
+// {/*<Carousel>*/}
+// {/*    <Carousel.Page>*/}
+// {/*        <div className="item item-1" >Item 1</div>*/}
+// {/*    </Carousel.Page>*/}
+// {/*    <Carousel.Page>*/}
+// {/*        <div className="item item-2">Item 2</div>*/}
+// {/*    </Carousel.Page>*/}
+// {/*    <Carousel.Page>*/}
+// {/*        <div className="item item-3">Item 3</div>*/}
+// {/*    </Carousel.Page>*/}
+// {/*</Carousel>*/}
+
 const Carousel = ({children}: { children: ReactNode }) => {
     const [pages, setPages] = useState<ReactNode[]>([]);
     const [offset, setOffset] = useState<number>(0);

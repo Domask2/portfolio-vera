@@ -4,11 +4,11 @@ import './About.scss';
 const About = () => (
     <div className="about">
         <div className="about_wrapper wrapper">
-            <div className="about_wrapper_back">
-                <div className="line_block lb1"/>
-                <div className="line_block lb2"/>
-                <div className="line_block lb3"/>
-            </div>
+            {/*<div className="about_wrapper_back">*/}
+            {/*    <div className="line_block lb1"/>*/}
+            {/*    <div className="line_block lb2"/>*/}
+            {/*    <div className="line_block lb3"/>*/}
+            {/*</div>*/}
 
             <div className="about_wrapper_card">
                 <div className="woman">

@@ -8,138 +8,20 @@
     letter-spacing: 2px;
   }
 
-  &_wrapper_back {
-    position: absolute;
-    width: 1280px;
-    height: 100%;
-    top: 0;
-
-    .line_block {
-      width: 33%;
-      float: left;
-      height: 100%;
-      border-left: 1px solid #F4F4F4;
-      display: inline-block;
-
-      &:last-child {
-        border-right: 1px solid #F4F4F4;
-
-      }
-    }
-
-  }
-
   &_wrapper {
-    width: 80%;
-    margin: 0 auto;
-    box-shadow: 0px 5px 40px rgb(0 0 0 / 5%);
-  }
-}
-
-.item {
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
-  user-select: none;
-  font-family: "Felix Titling", sans-serif;
-  height: 335px;
-  line-height: 29px;
-  letter-spacing: 0.05em;
-  padding: 50px 50px 53px 50px;
-  background-color: white;
-
-  p {
-    font-size: 15px;
-    text-align: left;
-    padding-bottom: 29px;
-  }
-
-  .author {
-    text-align: right;
-    letter-spacing: 0;
-    margin-right: 20px;
-    font-weight: bold;
-  }
-}
-
-.arrows {
-  position: absolute;
-  bottom: 0;
-  z-index: 1;
-  margin-top: -30px;
-  width: 300px;
-  height: 60px;
-  display: inline-block;
-  background: #fff;
-  box-shadow: 0px 5px 40px rgb(0 0 0 / 5%);
-
-  button {
-    outline: none;
-    border: none;
-    background-color: white;
-
-    &:hover {
-      color: #fff;
+    .reviews_button {
+      display: flex;
+      justify-content: center;
+      margin-top: 80px;
+      margin-bottom: 80px;
     }
 
-    &:hover {
-      background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='101' height='8' viewBox='0 0 101 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M100.354 4.35356C100.549 4.1583 100.549 3.84172 100.354 3.64646L97.1716 0.464475C96.9763 0.269212 96.6597 0.269212 96.4645 0.464475C96.2692 0.659737 96.2692 0.976319 96.4645 1.17158L99.2929 4.00001L96.4645 6.82844C96.2692 7.0237 96.2692 7.34028 96.4645 7.53554C96.6597 7.7308 96.9763 7.7308 97.1716 7.53554L100.354 4.35356ZM-4.37114e-08 4.5L100 4.50001L100 3.50001L4.37114e-08 3.5L-4.37114e-08 4.5Z' fill='%23fff'/%3e%3c/svg%3e");
+    .reviews_img {
+      position: absolute;
+      top: 158px;
+      left: 85px;
     }
   }
 }
 
-.arrow {
-  position: absolute;
-  top: 50%;
-  width: 61px;
-  height: 8px;
-  margin-top: -4px;
-  z-index: 10;
-  cursor: pointer;
-}
 
-.next {
-  right: 53px;
-  left: auto;
-}
-
-.prev {
-  left: 53px;
-  right: auto;
-}
-
-
-
-.arrow-back {
-  position: absolute;
-  bottom: 96px;
-  z-index: 1;
-  margin-top: -30px;
-  width: 300px;
-  height: 30px;
-  display: inline-block;
-  background: #fff;
-
-}
-
-.button {
-  display: flex;
-  justify-content: center;
-  margin-top: 79px;
-  margin-bottom: 80px;
-}
-
-.swiper-pagination {
-  width: 5% !important;
-  left: 125px !important;
-}
-
-.swiper-pagination-current {
-  color: #01D3C5;
-}
-
-.img {
-  position: absolute;
-  top: 158px;
-  left: 85px;
-}

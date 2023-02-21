@@ -20,6 +20,13 @@ export const SliderContext = createContext<{goToSlide?: (number: number) => void
     items: [{url:'', title: '', id: ''}],
 });
 
+// {/* <Slider */}
+// {/*    autoPlay={false} */}
+// {/*    autoPlayTime={5000} */}
+// {/*    width="50%" */}
+// {/*    height="50%" */}
+// {/* /> */}
+
 const Slider: FC<SliderProps> = ({ width, height, autoPlay, autoPlayTime }) => {
     const [items, setItems] = useState([{url:'', title: '', id: ''}]);
     const [slide, setSlide] = useState(0);

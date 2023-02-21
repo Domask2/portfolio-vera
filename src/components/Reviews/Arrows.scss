@@ -1,0 +1,54 @@
+.arrows {
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  width: 300px;
+  height: 60px;
+  display: inline-block;
+  background: #fff;
+  box-shadow: 0 5px 40px rgb(0 0 0 / 5%);
+
+  button {
+    outline: none;
+    border: none;
+    background-color: white;
+
+    &:hover {
+      color: #fff;
+    }
+
+    &:hover {
+      background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='101' height='8' viewBox='0 0 101 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M100.354 4.35356C100.549 4.1583 100.549 3.84172 100.354 3.64646L97.1716 0.464475C96.9763 0.269212 96.6597 0.269212 96.4645 0.464475C96.2692 0.659737 96.2692 0.976319 96.4645 1.17158L99.2929 4.00001L96.4645 6.82844C96.2692 7.0237 96.2692 7.34028 96.4645 7.53554C96.6597 7.7308 96.9763 7.7308 97.1716 7.53554L100.354 4.35356ZM-4.37114e-08 4.5L100 4.50001L100 3.50001L4.37114e-08 3.5L-4.37114e-08 4.5Z' fill='%23fff'/%3e%3c/svg%3e");
+    }
+  }
+
+  .arrow {
+    position: absolute;
+    top: 35%;
+    width: 61px;
+    height: 8px;
+    margin-top: -4px;
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .next {
+    right: 53px;
+    left: auto;
+  }
+
+  .prev {
+    left: 53px;
+    right: auto;
+  }
+}
+
+.swiper-pagination {
+  width: 5% !important;
+  left: 125px !important;
+  bottom: 5% !important;
+}
+
+.swiper-pagination-current {
+  color: #01D3C5;
+}
