@@ -1,11 +1,18 @@
 import React from 'react';
 import './Work.scss';
-import flower_one from '../../img/flower_one.png';
 
 const About = () => (
     <div className="work">
         <div className="work_wrapper wrapper">
             <div className="drawing">
+
+                <div className="banner">
+                    <video autoPlay muted loop>
+                        <source src="video.mp4" type="video/mp4" />
+                    </video>
+                    <h2 className="glitch-wrap">Hello World</h2>
+                </div>
+
 
                 <svg viewBox="0 0 65 62.2">
                     <path fill="#2CBBDF" d="M32.5,8.5c0-22.6,14.2,6.1,6.8,13.8c7.4-7.7,39.1-3.1,15.3,2.2c23.8-5.3,0.9,17-11.1,10.8c11.9,6.3,17.3,37.9,2.6,15.2
