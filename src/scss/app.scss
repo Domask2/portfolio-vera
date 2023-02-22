@@ -5,16 +5,12 @@
 
 :root
 {
-  --yellow: #F5C32C;
-  --orange : #FCA61F;
-  --black : #242D49;
-  --gray : #788097;
-  --blueCard : #DDF8FE;
-  --purple: rgb(238 210 255);
-  --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
-  --orangeCard: rgba(252, 166, 31, 0.45);
-  --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+  --defColorText : #222222;
+  --white: #ffffff;
+  --black: #000000;
 
+  --color-hover-gray: #B5B5B5;
+  --background-submenu:  #202223;
 
   --backgroundColor: #232323;
   --firstColor: #00D69C;
@@ -22,7 +18,6 @@
   --thirdColor: #FF1F00;
   --fourthColor: #FFD600;
   --dropShadowColor: rgba(0, 0, 0, .7);
-
 
   --great-color-one: #2CBBDF;
   --great-color-two: #A573E0;
@@ -33,9 +28,6 @@
 }
 
 .app{
-  padding: 0;
-  margin: 0;
-  color: var(--black);
   min-width: 320px;
 
   .wrapper {

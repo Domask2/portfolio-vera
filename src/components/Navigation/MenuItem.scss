@@ -1,0 +1,42 @@
+.nav_menu_item {
+  position: relative;
+
+  > a {
+    color: var(--white);
+    font-size: 16px;
+    letter-spacing: 0.6px;
+    margin-top: 2px;
+    margin-right: 40px;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+  }
+
+  .label {
+    &::after {
+      content: '';
+      position: absolute;
+      top: 2px;
+      width: 8px;
+      height: 5px;
+      margin: 9px 0 0 5px;
+      background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='8' height='5' viewBox='0 0 8 5' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M0.707107 0L0 0.707107L2.84082 3.54793L2.83691 3.55183L3.54402 4.25894L7.06843 0.734526L6.36133 0.0274193L3.54793 2.84082L0.707107 0Z' fill='url(%23paint0_linear)'/%3e%3cdefs%3e%3clinearGradient id='paint0_linear' x1='0' y1='0' x2='3.61475' y2='6.51568' gradientUnits='userSpaceOnUse'%3e%3cstop stop-color='%2300D7B9'/%3e%3cstop offset='1' stop-color='%2300BDD7'/%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e ");
+      transition-property: all;
+      transition-duration: 0.2s;
+      transition-timing-function: ease;
+    }
+  }
+
+  > :hover {
+    color: var(--color-hover-gray);
+  }
+
+  > :hover.label::after {
+    transform: rotate(180deg);
+  }
+
+  &:hover .nav_menu_item_submenu {
+    display: block;
+  }
+}

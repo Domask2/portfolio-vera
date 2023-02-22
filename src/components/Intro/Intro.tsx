@@ -1,6 +1,6 @@
 import React from 'react';
-import './Intro.scss';
 import Button from "../Button/Button";
+import './Intro.scss';
 
 const Intro = () => (
     <div className="intro">

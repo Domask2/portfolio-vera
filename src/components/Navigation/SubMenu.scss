@@ -1,0 +1,30 @@
+.nav_menu_item_submenu {
+  display: none;
+  position: absolute;
+  left: -30px;
+  top: 100%;
+  width: 343px;
+  padding: 33px 30px;
+  background-color: var(--background-submenu);
+  box-shadow: 0 10px 20px rgb(26 26 26 / 30%);
+
+  .submenu_items {
+    display: flex;
+    flex-direction: column;
+
+    .submenu_item {
+      margin: 0 0 20px 0;
+
+      &_link {
+        color: var(--white);
+        text-align: left;
+        font-size: 16px;
+        letter-spacing: 0.2px;
+      }
+
+      &:hover .submenu_item_link {
+        color: var(--color-hover-gray);
+      }
+    }
+  }
+}
