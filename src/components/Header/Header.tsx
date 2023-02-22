@@ -8,7 +8,6 @@ import './Header.scss';
 
 const Header = () => (
     <header className='header'>
-        <div className="header_main">
             <div className="header_wrapper wrapper">
                 <Logo/>
                 <Branding/>
@@ -18,9 +17,7 @@ const Header = () => (
                     <Button>Контакты</Button>
                     <NavMobile/>
                 </div>
-
             </div>
-        </div>
     </header>
 )
 export default Header;
