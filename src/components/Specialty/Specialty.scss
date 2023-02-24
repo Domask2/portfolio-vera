@@ -11,41 +11,5 @@
   &_wrapper {
     display: flex;
     padding-bottom: 50px;
-
-    .box {
-      display: flex;
-      flex-direction: column;
-      flex: 1;
-      padding-right: 7%;
-
-      .box_txt {
-        display: flex;
-        flex-direction: column;
-
-        .title {
-          font-size: 28px;
-          color: #222222;
-          margin-bottom: 20px;
-        }
-
-        .txt {
-          font-size: 20px;
-          line-height: 29px;
-          color: #555555;
-          margin-bottom: 100px;
-        }
-      }
-
-      .image {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        img {
-          max-width: 570px;
-          height: 370px;
-        }
-      }
-    }
   }
 }

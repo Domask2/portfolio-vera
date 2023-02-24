@@ -1,36 +1,16 @@
 .employment {
 
-
-
   &_wrapper {
     display: flex;
     position: relative;
     height: 380px;
     margin: 183px 0 0 2px;
 
-    &_back {
-      position: absolute;
-      width: 100%;
-      height: 731px;
-      top: -183px;
-
-      .line_block {
-        width: 33%;
-        float: left;
-        height: 100%;
-        border-left: 1px solid #F4F4F4;
-        display: inline-block;
-
-        &:last-child {
-          border-right: 1px solid #F4F4F4;
-        }
-      }
-    }
-
     .content {
       display: flex;
       flex-direction: column;
       align-items: center;
+
       .card {
         display: flex;
         margin-bottom: 150px;

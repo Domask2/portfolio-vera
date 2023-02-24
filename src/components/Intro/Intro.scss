@@ -1,5 +1,5 @@
 .intro {
-  background: #fff;
+  background: var(--backgroundWhite);
 
   &_wrapper {
     display: flex;
@@ -12,8 +12,8 @@
       padding-left: 100px;
 
       &__title {
+        font-family: 'sf-pro-bold', serif;
         font-size: 50px;
-        padding: 0;
         margin-bottom: 24px;
       }
 
