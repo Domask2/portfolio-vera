@@ -14,11 +14,6 @@ const Reviews = () => (
                     <Button styleText={{color: 'black'}}>Читать все отзывы</Button>
                 </div>
 
-                <div className="reviews_img">
-                    <img src="https://yanakhodkina.com/wp-content/themes/yanakhodkina_2/images/iMacMockup.png"
-                         alt="img"/>
-                </div>
-
             </div>
         </div>
     </div>

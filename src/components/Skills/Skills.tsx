@@ -1,9 +1,9 @@
 import React from 'react';
-import './Skills.scss';
 import {Fade} from "react-awesome-reveal";
-import {programs, skills} from "../../data";
 import ProgramCard from "./ProgramCard";
 import SkillCard from "./SkillCard";
+import {programs, skills} from "../../data";
+import './Skills.scss';
 
 const Skills = () => (
     <div className='skills'>
@@ -36,7 +36,7 @@ const Skills = () => (
                             </p>
                         </Fade>
                         <Fade triggerOnce fraction={0} direction='up'>
-                            <p className='txt_two'>*Я никогда не изображаю в дизайне то, что невозможно реализовать на
+                            <p className='txt_two'>* Я никогда не изображаю в дизайне то, что невозможно реализовать на
                                 верстке.</p>
                         </Fade>
                     </div>

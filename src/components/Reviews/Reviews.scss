@@ -1,5 +1,4 @@
 .reviews {
-  position: relative;
 
   &_title {
     margin: 123px 0 83px 10px;
@@ -14,12 +13,6 @@
       justify-content: center;
       margin-top: 80px;
       margin-bottom: 80px;
-    }
-
-    .reviews_img {
-      position: absolute;
-      top: 158px;
-      left: 85px;
     }
   }
 }

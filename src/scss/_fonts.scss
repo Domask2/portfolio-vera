@@ -27,3 +27,15 @@
   font-weight: bold;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'sf-pro-light-italic';
+  src: url('./fonts/SFProDisplay-LightItalic.eot');
+  src: local('SF Pro Display LightItalic'), local('SFProDisplay-LightItalic'),
+  url('./fonts/SFProDisplay-LightItalic.eot?#iefix') format('embedded-opentype'),
+  url('./fonts/SFProDisplay-LightItalic.woff2') format('woff2'),
+  url('./fonts/SFProDisplay-LightItalic.woff') format('woff'),
+  url('./fonts/SFProDisplay-LightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}

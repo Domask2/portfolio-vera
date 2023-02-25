@@ -1,6 +1,6 @@
 import React from 'react';
-import './FooterContact.scss';
 import Button from "../Button/Button";
+import './FooterContact.scss';
 
 const FooterContact = () => (
     <div className='footer-contact'>
@@ -123,8 +123,6 @@ const FooterContact = () => (
 
                     <Button>Заказать дизайн</Button>
                 </div>
-
-
             </div>
         </div>
     </div>

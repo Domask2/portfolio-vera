@@ -20,9 +20,13 @@
           color: #222222;
           font-size: 17px;
           cursor: pointer;
-          &:hover {
-            color: #01D3C5;
+
+          .link {
+            &:hover {
+              color: #01D3C5;
+            }
           }
+
         }
       }
     }

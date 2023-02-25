@@ -253,5 +253,88 @@ const skills = [
         percent: '78%',
     },
 ];
+const articles = [
+    {
+        id: 1,
+        img: "https://yanakhodkina.com/wp-content/uploads/uprock_school_3.jpg",
+        url: "https://yanakhodkina.com/dnevnik-obucheniya-v-uprock-3/",
+        title: "Дневник обучения в школе UPROCK (часть 3)",
+        category: 'Саморазвитие',
+        categoryUrl: 'https://yanakhodkina.com/samorazvitie/',
+    },
+    {
+        id: 2,
+        img: "https://yanakhodkina.com/wp-content/uploads/uprock_school_3.jpg",
+        url: "https://yanakhodkina.com/dnevnik-obucheniya-v-uprock-2/",
+        title: "Дневник обучения в школе UPROCK (часть 2)",
+        category: 'Саморазвитие',
+        categoryUrl: 'https://yanakhodkina.com/samorazvitie/',
+    },
+    {
+        id: 3,
+        img: "https://yanakhodkina.com/wp-content/uploads/seo-dizajn-sajta-1.jpg",
+        url: "https://yanakhodkina.com/seo-dizajn-sajta/",
+        title: "Дневник обучения в школе UPROCK (часть 3)",
+        category: 'Веб-дизайн',
+        categoryUrl: 'https://yanakhodkina.com/dizajn/',
+    }
+];
+const footerCard = [
+    {
+        id: 1,
+        title: 'Услуги и цены',
+        menu: [
+            { title: 'Дизайн многостраничных сайтов', url: '#/'},
+            { title: 'Дизайн лендингов', url: '#/'},
+            { title: 'Редизайн сайтов', url: '#/'},
+            { title: 'Разработка сайтов', url: '#/'},
+            { title: 'Реставрация фотографий', url: '#/'},
+            { title: 'Обработка и ретушь фото', url: '#/'},
+            { title: 'Сотрудничество с веб-студиями', url: '#/'},
+        ]
+    },
+    {
+        id: 2,
+        title: 'Рубрики блога',
+        menu: [
+            { title: 'Веб-дизайн', url: '#/'},
+            { title: 'Все про создание сайтов', url: '#/'},
+            { title: 'Фриланс и удаленная работа', url: '#/'},
+            { title: 'Фотография', url: '#/'},
+            { title: 'Фотостоки и микростоки', url: '#/'},
+            { title: 'Социальные сети', url: '#/'},
+            { title: 'Саморазвитие', url: '#/'},
+        ]
+    },
+    {
+        id: 3,
+        title: 'Уроки',
+        menu: [
+            { title: 'Уроки Figma', url: '#/'},
+            { title: 'Уроки Photoshop', url: '#/'},
+            { title: 'Уроки фотографии', url: '#/'},
+        ]
+    },
+    {
+        id: 4,
+        title: 'Информация',
+        menu: [
+            { title: 'Часто задаваемые вопросы', url: '#/'},
+            { title: 'Обо мне', url: '#/'},
+            { title: 'Отзывы', url: '#/'},
+            { title: 'Сертификаты', url: '#/'},
+            { title: 'Контакты', url: '#/'},
+        ]
+    },
+];
+const footerMenu = [
+    { id:1, title: 'Главная', url: '#/'},
+    { id:2, title: 'Содержание', url: '#/'},
+    { id:3, title: 'Портфолио', url: '#/'},
+    { id:4, title: 'Блог', url: '#/'},
+    { id:5, title: 'Лента', url: '#/'},
+    { id:6, title: 'Сотрудничество', url: '#/'},
+    { id:7, title: 'Контакты', url: '#/'},
+];
 
-export {menu, employments, arrPortfolio, arrSpecialty, programs, skills};
+export {menu, employments, arrPortfolio, arrSpecialty, programs, skills, articles, footerCard, footerMenu};

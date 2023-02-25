@@ -10,14 +10,17 @@
       justify-content: center;
       padding: 25px 0 0;
       text-align: center;
+
       &_item {
         margin: 0 18px;
-        color: #fff;
         font-size: 17px;
         cursor: pointer;
 
-        &:hover {
-          color: #01D3C5;
+        .link {
+          color: var(--white);
+          &:hover {
+            color: #01D3C5;
+          }
         }
       }
     }
