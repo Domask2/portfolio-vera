@@ -1,6 +1,6 @@
 import {MenuItemType} from "./components/Navigation/type";
 
-export const menu: MenuItemType[] = [
+const menu: MenuItemType[] = [
     {
         id: 1,
         title: 'Портфолио',
@@ -78,7 +78,7 @@ export const menu: MenuItemType[] = [
 
     }
 ];
-export const employments = [
+const employments = [
     {
         id: 1,
         number: '01',
@@ -101,7 +101,7 @@ export const employments = [
         link: "#/",
     }
 ];
-export const arrPortfolio = [
+const arrPortfolio = [
     {
         id: 0,
         src: "https://images.unsplash.com/photo-1661956601349-f61c959a8fd4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80",
@@ -168,7 +168,7 @@ export const arrPortfolio = [
     },
 
 ];
-export const arrSpecialty = [
+const arrSpecialty = [
     {
         id: 0,
         title: 'Постраничное согласование',
@@ -204,3 +204,54 @@ export const arrSpecialty = [
         txt: 'Если я называю сроки, то будьте уверены, что мы в них уложимся.И часто даже закончим раньше, если конечно сроки не будете затягивать вы ;)'
     },
 ];
+const programs = [
+    {
+        id: 0,
+        src: 'https://yanakhodkina.com/wp-content/themes/yanakhodkina_2/images/Ps.svg',
+        title: 'Photoshop'
+    },
+    {
+        id: 1,
+        src: 'https://yanakhodkina.com/wp-content/themes/yanakhodkina_2/images/figma.svg',
+        title: 'Figma'
+    },
+    {
+        id: 2,
+        src: 'https://yanakhodkina.com/wp-content/themes/yanakhodkina_2/images/Ai.svg',
+        title: 'Illustrator'
+    },
+    {
+        id: 3,
+        src: 'https://yanakhodkina.com/wp-content/themes/yanakhodkina_2/images/infinity.svg',
+        title: 'Другие'
+    },
+];
+const skills = [
+    {
+        id: 0,
+        title: 'UI/UX',
+        percent: '50%',
+    },
+    {
+        id: 1,
+        title: 'Юзабилити',
+        percent: '90%',
+    },
+    {
+        id: 3,
+        title: 'SEO',
+        percent: '70%',
+    },
+    {
+        id: 4,
+        title: 'HTML/CSS',
+        percent: '30%',
+    },
+    {
+        id: 5,
+        title: 'Интернет маркетинг',
+        percent: '78%',
+    },
+];
+
+export {menu, employments, arrPortfolio, arrSpecialty, programs, skills};

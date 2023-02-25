@@ -1,5 +1,5 @@
 .skills {
-  background: #191A1B;
+  background: var(--background-defoult);
 
   &_title {
     font-size: 20px;
@@ -12,57 +12,20 @@
 
   &_wrapper {
     padding-bottom: 159px;
-    .box_program {
+
+    .skills_programs {
       display: flex;
       justify-content: space-around;
       margin-bottom: 168px;
-
-      .skill {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-        img {
-          padding-top: 13px;
-          margin-bottom: 20px;
-        }
-
-        .txt {
-          font-size: 20px;
-          color: #555555;
-        }
-      }
     }
 
     .box_content {
       display: flex;
 
-      &_grap {
+      &_grape {
         flex: 1;
         display: flex;
         flex-direction: column;
-
-        .box_content_value {
-
-          .title {
-            font-size: 18px;
-            color: #999999;
-            margin-bottom: 5px;
-          }
-
-          .grap {
-            width: 499.12px;
-            height: 6px;
-            background: #F3F2F7;
-            border-radius: 8.00001px;
-            margin-bottom: 34px;
-            &_procent {
-              background: -webkit-linear-gradient(80.89deg, #00D7B9 0%, #00BDD7 104.17%);
-              border-radius: 8.00001px;
-              height: 100%;
-            }
-          }
-        }
       }
 
       &_txt {
@@ -78,15 +41,12 @@
           letter-spacing: 0.05em;
           color: #fff;
           text-align: justify;
-          font-family: Gumela, serif;
           padding-right: 180px;
-
         }
 
         .txt_one {
           margin-bottom: 20px;
         }
-
       }
     }
   }

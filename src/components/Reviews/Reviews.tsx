@@ -6,7 +6,7 @@ import './Reviews.scss';
 const Reviews = () => (
     <div className='reviews'>
         <div className="wrapper">
-            <h3 className='reviews_title'>Отзывы</h3>
+            <h3 className='reviews_title'>отзывы</h3>
             <div className="reviews_wrapper">
                 <Slider/>
 

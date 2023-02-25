@@ -13,7 +13,6 @@ const SpecialtyCard: FC<SCType> = ({item, animationPosition}) => (
     <div className="specialty_card">
         {
             item.length > 0 && item.map((item, index) => {
-
                     const pos: string = animationPosition[index]
                     return (
                         <Fade key={item.id} fraction={0} triggerOnce direction={pos as FadeDirection} cascade>
